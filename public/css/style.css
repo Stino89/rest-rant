@@ -4,8 +4,8 @@ body {
 }
 
 main {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-inline-end: 20px;
+    margin-inline-start: 20px;
     background-color: white;
   }
   
@@ -27,7 +27,7 @@ main {
   
   nav li {
       display: inline;
-      margin-right: 25px;
+      margin-inline-end: 25px;
   }
   
   nav a {
