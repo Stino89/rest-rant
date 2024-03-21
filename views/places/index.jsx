@@ -13,23 +13,23 @@ function index (data) {
           <p className="text-center">
             {place.cuisines}
           </p>
-          <img src={place.pic} alt={place.name} />
-          <p className="text-center">
-            Located in {place.city}, {place.state}
-          </p>
+          <img className="img-fluid" src={place.pic} alt={place.name} />
+          <p>Rating: Currently unrated</p> {/* Rating section */}
+          <p>Comments: No comments yet!</p> {/* Comments section */}
+          
         </div>
-      )
-    })
+      );
+    });
     return (
       <Def>
-          <main>
+          <main className="container">
               <h1>Places to Rant or Rave About</h1>
               <div className="row">
                 {placesFormatted}
               </div>
           </main>
       </Def>
-    )
+    );
   }
 
-module.exports = index
+module.exports = Index;
